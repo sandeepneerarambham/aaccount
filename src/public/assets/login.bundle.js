@@ -277,8 +277,7 @@ module.exports = {
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(global) {function 
-					      (url) {
+/* WEBPACK VAR INJECTION */(function(global) {function (url) {
   global.window.location = url;
 }
 
