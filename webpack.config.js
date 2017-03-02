@@ -54,7 +54,7 @@ function buildDevServer() {
     compress: true,
     port: 9000,
     proxy: {
-      '*': 'http://localhost:9009'
+      '*': 'https://atlassian-reference-app.herokuapp.com/'
     }
   }
 }
