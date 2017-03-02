@@ -8036,7 +8036,7 @@ __WEBPACK_IMPORTED_MODULE_0_jquery___default()('#login-submit').click(function (
   var webAuth = new __WEBPACK_IMPORTED_MODULE_1_auth0_js___default.a.WebAuth({
     domain: "atlassian-cse.auth0.com",
     clientID: "vLFyDYCrf5xNVusuoVEmKiSDkLJA1GA4",
-    redirectUri: "http://localhost:9009/callback"
+    redirectUri: "https://atlassian-reference-app.herokuapp.com/callback"
   });
   ev.preventDefault();
   var options = config.internalOptions || {};
