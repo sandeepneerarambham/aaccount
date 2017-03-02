@@ -20,7 +20,7 @@ const strategy = new Auth0Strategy({
     callbackURL:  process.env.AUTH0_CALLBACK_URL || 'http://localhost:3000/callback'
   }, (accessToken, refreshToken, extraParams, profile, done) => {
     // accessToken is the token to call Auth0 API (not needed in the most cases)
-    // extraParams.id_token has the JSON Web Token
+    // extraParams.id_token has the JSON Web Token in it
     // profile has all the information from the user
     profile.extraParams = extraParams;
     return done(null, profile);
