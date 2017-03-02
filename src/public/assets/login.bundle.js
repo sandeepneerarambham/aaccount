@@ -277,7 +277,8 @@ module.exports = {
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(global) {function redirect(url) {
+/* WEBPACK VAR INJECTION */(function(global) {function 
+					      (url) {
   global.window.location = url;
 }
 
@@ -8036,7 +8037,7 @@ __WEBPACK_IMPORTED_MODULE_0_jquery___default()('#login-submit').click(function (
   var webAuth = new __WEBPACK_IMPORTED_MODULE_1_auth0_js___default.a.WebAuth({
     domain: "atlassian-cse.auth0.com",
     clientID: "vLFyDYCrf5xNVusuoVEmKiSDkLJA1GA4",
-    redirectUri: "http://localhost:9009/callback"
+    redirectUri: "https://atlassian-cse.auth0.com/login/callback"
   });
   ev.preventDefault();
   var options = config.internalOptions || {};
